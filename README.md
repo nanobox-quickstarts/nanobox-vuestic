@@ -1,58 +1,50 @@
-# Vuestic Admin Dashboard
+![Vuestic with Nanobox](https://guides.nanobox.io/assets/quickstart-icons/vuestic.png?)
 
-Responsive admin dashboard template built with [Vue.js](https://vuejs.org) and [Bootstrap 4](https://v4-alpha.getbootstrap.com). Developed by [Epicmax](http://epicmax.co). Designed by [Vasili Savitski](https://github.com/xx13/)
+# Vuestic from scratch
 
-<p align="center"> 
-  <a href="http://www.epicmax.co/vuestic" target="_blank">
-    <img src="http://i.imgur.com/pMuJVVc.png" align="center" width="888px"/>
-  </a> 
-</p>
+Run a Vuestic app locally, install nothing besides nanobox.
 
-## Demo
-Check it out [live](http://vuestic.epicmax.co)!
+<a href="https://nanobox.io/download"><img src="https://guides.nanobox.io/assets/quickstart-icons/download.png" /></a>
 
-## Installation
+## Clone the repo
 
-``` bash
-# clone the repo 
-git clone https://github.com/epicmaxco/vuestic-admin.git
+```bash
+# clone the code
+git clone https://github.com/nanobox-quickstarts/nanobox-vuestic.git
 
-# go into app's directory and install dependencies:
-cd vuestic-admin
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+# cd into the vuestic app
+cd nanobox-vuestic
 ```
 
-## Features
-* Vue.js
-* Bootstrap 4
-* Webpack
-* Responsive layout
-* Charts (Chart.js)
-* Maps (Google, Leaflet, amMap)
-* Progress bars
-* Material forms with beautiful validation
-* 4 Form wizard types
-* Static tables and datatables
-* Login/signup pages templates
-* and many more!
+## Run the app
 
-## How can I support developers?
-- Star our GitHub repo :star:
-- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
-- Follow us on [Twitter](https://twitter.com/epicmaxco) :feet:
-- Like our page on [Facebook](https://www.facebook.com/epicmaxco) :thumbsup:
+```bash
+# Add a convenient way to access your app from a browser
+nanobox dns add local vuestic.dev
 
-## Can I hire you guys?
-Yes!  Visit [our homepage](http://epicmax.co/) or simply leave us a message to [hello@epicmax.co](mailto:hello@epicmax.co). We will be happy to work with you!
+# Run Vuestic as you would normally, with Nanobox
+nanobox run yarn run dev
+```
 
-## License
-[MIT](https://github.com/epicmaxco/vuestic-admin/blob/master/LICENSE) license.
+## Check it out
+
+Visit your app at <a href="http://vuestic.dev" target="\_blank">vuestic.dev</a>
+
+## Explore
+With Nanobox, you don't have to have anything installed on your machine to run your app:
+
+```bash
+# drop into a Nanobox console
+nanobox run
+
+# where node is installed,
+node -v
+
+# and your code is mounted
+ls
+```
+
+## Now What?
+For more details about running Vuestic apps with nanobox visit [guides.nanobox.io/golang/vuestic/](https://guides.nanobox.io/golang/vuestic/)
+
+<a href="https://nanobox.io"><img src="https://guides.nanobox.io/assets/quickstart-icons/footer.png" /></a>
