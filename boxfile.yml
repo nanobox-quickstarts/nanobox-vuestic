@@ -1,0 +1,11 @@
+run.config:
+  engine: nodejs
+
+#
+deploy.config:
+  extra_steps:
+    - yarn run build
+
+#
+web.main:
+  start: yarn run dev
